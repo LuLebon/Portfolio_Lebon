@@ -1735,6 +1735,10 @@ input, select, textarea {
 					margin-left: 50%;
 				}
 
+				.row > .col-6-medium {
+					width: 80%;
+				}
+
 				.row > .col-7-xsmall {
 					width: 58.33333%;
 				}
@@ -3036,6 +3040,10 @@ input, select, textarea {
 				padding: 0;
 			}
 
+			.button.primary{
+				padding: 0em 2.25em;
+			}
+
 		}
 
 /* Features */
@@ -3599,6 +3607,18 @@ input, select, textarea {
 					font-size: 0.8em;
 				}
 
+		}
+
+		@media screen and (max-width: 480px) {
+			#banner h1 {
+
+				font-size: 150%;
+				padding: 0.75em;
+			}
+
+			#banner h2 {
+				font-size: 1.40em;
+			}
 		}
 
 		body.is-preload #banner .logo {
